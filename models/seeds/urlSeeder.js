@@ -19,10 +19,9 @@ db.once('open', () => {
     Url.create(
       {
         url: `https://localhost:3000/${i}`,
-        name: `test: ${i}`
+        shortUrl: `test: ${i}`
       }
     )
   }
   console.log('done')
 })
-

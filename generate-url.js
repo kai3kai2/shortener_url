@@ -3,7 +3,7 @@ function sample(array) {
   return array[index]
 }
 
-function generateUrl() {
+function generateUrl(length) {
   // define url have element
   const numbers = '1234567890'
   const lowerCaseLetters = 'abcdefghijklmnopqrstuvwxyz'
@@ -17,7 +17,7 @@ function generateUrl() {
 
   // generate random's five element
   let randomUrls = ''
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < length; i++) {
     randomUrls += sample(collection)
   }
 
