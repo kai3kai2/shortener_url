@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const generateUrl = require('../../generate-url')
+const generateUrl = require('../../utils/generate-url')
 const Url = require('../../models/url')
 
 router.get('/', (req, res) => {
