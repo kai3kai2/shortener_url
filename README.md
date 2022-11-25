@@ -2,7 +2,7 @@
 
 
 ## 網站畫面
-![MyImage]https://github.com/kai3kai2/shortener_url/blob/main/picture/v1.0.jpg
+![MyImage](https://github.com/kai3kai2/shortener_url/blob/main/picture/v1.0.jpg)
 
 ## Introduce
 這是一個可以將一大長串的網址變身成簡短好記的網址
